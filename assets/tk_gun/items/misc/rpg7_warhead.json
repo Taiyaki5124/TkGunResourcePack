@@ -1,0 +1,6 @@
+{
+    "model":{
+        "type": "minecraft:model",
+        "model": "tk_gun:item/misc/rpg7_warhead"
+    }
+}

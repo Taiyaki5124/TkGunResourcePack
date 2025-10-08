@@ -1,0 +1,6 @@
+{
+    "model":{
+        "type": "minecraft:model",
+        "model": "tk_gun:item/ammo/medium"
+    }
+}

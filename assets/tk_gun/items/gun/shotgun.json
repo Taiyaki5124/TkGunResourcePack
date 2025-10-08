@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true":{
+      "type": "minecraft:model",
+      "model": "tk_gun:item/ads/caru_shotgun_ads"
+    },
+    "on_false":{
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 1,
+      "on_true":{
+        "type": "minecraft:model",
+        "model": "tk_gun:item/reload/caru_shotgun_reload"
+      },
+      "on_false":{
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_true":{
+          "type": "minecraft:model",
+          "model": "tk_gun:item/recoil/caru_shotgun_recoil"
+        },
+        "on_false":{
+          "type": "minecraft:model",
+          "model": "tk_gun:item/caru_shotgun"
+        }
+      }
+    }
+  },
+  "hand_animation_on_swap": false
+}

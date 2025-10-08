@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true":{
+      "type": "minecraft:model",
+      "model": "tk_gun:item/ads/revolver"
+    },
+    "on_false":{
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "index": 1,
+      "on_true":{
+        "type": "minecraft:model",
+        "model": "tk_gun:item/reload/revolver"
+      },
+      "on_false":{
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_true":{
+          "type": "minecraft:model",
+          "model": "tk_gun:item/recoil/revolver"
+        },
+        "on_false":{
+          "type": "minecraft:model",
+          "model": "tk_gun:item/revolver"
+        }
+      }
+    }
+  },
+  "hand_animation_on_swap": false
+}
