@@ -1,7 +1,8 @@
 {
 	"pack": {
-		"pack_format": 69,
-		"description": "コピー機のサーバーで遊べる銃のリソースパック"
+		"description": "コピー機のサーバーで遊べる銃のリソースパック",
+		"min_format": 65,
+		"max_format": 69
 	}
 
 }
