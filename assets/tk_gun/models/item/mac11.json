@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "block/gray_glazed_terracotta",
@@ -946,7 +947,7 @@
 			"translation": [12, 9, -1.25]
 		},
 		"gui": {
-			"rotation": [0, 90, 0],
+			"rotation": [90, 45, -90],
 			"scale": [0.78, 0.78, 0.78]
 		},
 		"fixed": {
@@ -959,66 +960,56 @@
 			"name": "ストック",
 			"origin": [8, 6.9588, 14.69344],
 			"color": 0,
-			"nbt": "{}",
 			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 		},
 		{
 			"name": "本体",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"nbt": "{}",
 			"children": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
 		},
 		{
 			"name": "グリップ",
 			"origin": [8, 9.96746, 8.24858],
 			"color": 0,
-			"nbt": "{}",
 			"children": [47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
 		},
 		{
 			"name": "トリガー",
 			"origin": [0, 1.83764, 0.62224],
 			"color": 0,
-			"nbt": "{}",
 			"children": [57, 58, 59, 60, 61, 62, 63]
 		},
 		{
 			"name": "バレル",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"nbt": "{}",
 			"children": [64, 65, 66, 67, 68, 69, 70, 71]
 		},
 		{
 			"name": "これはマガジンよ",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"nbt": "{}",
 			"children": [
 				{
 					"name": "これはマガジンよ",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"nbt": "{}",
 					"children": [
 						{
 							"name": "これはマガジンよ",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"nbt": "{}",
 							"children": [
 								{
 									"name": "これはマガジンよ",
 									"origin": [0, 0, 0],
 									"color": 0,
-									"nbt": "{}",
 									"children": [
 										{
 											"name": "これはマガジンよ",
 											"origin": [0, 0, 0],
 											"color": 0,
-											"nbt": "{}",
 											"children": [72]
 										}
 									]
